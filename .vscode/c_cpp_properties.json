@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/include/*",
+                "/opt/llvm-22/include/**/*",
+                // "/work/llvm/llvm/include/*",
+                // "/work/llvm/build/include",
+                // "${workspaceFolder}/tools/llvm-cc/llvm/include/*"
+            ],
+            "defines": [],
+            "compilerPath": "/opt/llvm-22/bin/clang++",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-clang-x64",
+            "compilerArgs": []
+        }
+    ],
+    "version": 4
+}
